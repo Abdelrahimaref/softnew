@@ -1,0 +1,24 @@
+.works-pic,.works {
+    background-image: url('../images/Layer 6 copy.png');
+    background-repeat: no-repeat;
+}
+.works {
+    background-position: bottom left;
+}
+.works-pic {
+    background-position: top right;
+}
+
+.btn-works {
+    background-color: #EAECFB;
+    color: #373F5C;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    border-radius: 3rem;
+}
+.btn-active {
+    background-color: $main-color !important;
+    color: #FFF !important;
+}
+

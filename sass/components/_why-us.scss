@@ -1,0 +1,25 @@
+.why-us {
+    background-image: url('../images/Layer 3.png');
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size: contain;
+}
+.card {
+    background-color: #FFF;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    .card-title {
+        color: $main-btn-color;
+    }
+    .card-icon {
+        background-color: #F7F7F7;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        color: $main-btn-color ;
+
+        i {
+            font-size: 40px;
+        }
+    }
+}
