@@ -1,3 +1,24 @@
+/*********** About Page ( Carousel Page ) ************/
+$('.product-team-press').click(function(){
+  setTimeout(() => {
+    $('.develop-team').fadeOut(300);
+  }, 300);
+  setTimeout(() => {
+    $('.product-team').fadeIn(300);
+  }, 500);
+  
+})
+
+$('.develop-team-press').click(function(){
+  setTimeout(() => {
+    $('.product-team').fadeOut(300);
+  }, 100);
+  setTimeout(() => {
+    $('.develop-team').fadeIn(300);
+  }, 300);
+  
+})
+
 /********** Category in landing page  ********/
 $('.all-icon').click(function(){
   setTimeout(() => {
@@ -86,7 +107,7 @@ $('.desktop-icon').click(function(){
 
 
 /******** Tracking Section *********/
-$('.cloud').click(function(){
+$('.cloud').mouseover(function(){
   setTimeout(() => {
     $('.eye-word').fadeOut(300);
     $('.dash-word').fadeOut(300);
@@ -102,7 +123,7 @@ $('.cloud').click(function(){
 })
 
 
-$('.dash').click(function(){
+$('.dash').mouseover(function(){
   setTimeout(() => {
     $('.eye-word').fadeOut(300);
     $('.cloud-word').fadeOut(300);
@@ -117,7 +138,7 @@ $('.dash').click(function(){
   }, 400);
 })
 
-$('.eye').click(function(){
+$('.eye').mouseover(function(){
   setTimeout(() => {
     $('.dash-word').fadeOut(300);
     $('.cloud-word').fadeOut(300);
@@ -132,7 +153,7 @@ $('.eye').click(function(){
   }, 400);
 })
 
-$('.tag').click(function(){
+$('.tag').mouseover(function(){
   setTimeout(() => {
     $('.dash-word').fadeOut(300);
     $('.cloud-word').fadeOut(300);
